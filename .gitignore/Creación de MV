@@ -1,0 +1,19 @@
+Instalación de MVs
+Para empezar, primero se instaló Ubuntu como sistema operativo principal ya que Windows 
+no permite correr con gran efectividad las máquinas virtuales montadas en su sistema, Ubuntu
+ no tiene este problema ya que optimiza recursos, luego de instalar Ubuntu en la lapto, busco
+ en google la manera de instalar una máquina virtual en Ubuntu, antes de hacer la instalación
+ se descargaron paquetes de actualización con el comando apt-get update, una vez ejecutado
+ ese comando se comenzó a instalar virtualbox.
+
+Ahora que ya tenemos instalado VirtualBox empezamos a instalar un servidor y un cliente con
+ un IOS de Centos ya disponible en google entonces luego de realizar la instalación se
+ descargaron los paquetes básicos como servicio de red(se usaron dos tarjetas gráficas una
+ para la red interna y otra para la internet), cabe mencionar que todo se lo realizo por línea de
+ comando ya que no se realizó una instalación de Centos por modo grafico por factores de
+ optimización de recursos, luego de descargar lo necesario para nuestro proyecto se procedió a
+ poner ambas máquinas virtuales en red, esto se realizó entrando al archivo de la tarjeta
+ gráfica con el comando vi etc/sysconfig/network-scripts/ifcgf-enp0s3 donde le borrábamos la
+ opción de DHCP y le agregábamos por static  o none y en la APDDR le agregábamos la
+ dirección ip que este en el mismo rango de red de la otra pc con la que me quiero comunicar,
+ finalmente se hizo ping en las pc donde se comprobó el envío y recepción de los paquetes.
