@@ -1,0 +1,13 @@
+primero ejecutamos VirtualBox en el sistema operativo principal (Host), 
+las máquinas virtuales deben estar apagadas para este procedimiento
+
+clic en la primera máquina virtual que deseamos conectar a la red y luego en configuración. 
+Haga clic en el apartado red en la ventana configuación.
+clic en la pestaña de adaptador 1.  marcar la casilla Habilitar adaptador de red
+clic en el menú desplegable y seleccionar la opción Red Interna y scribir un nombre para la red interna.
+hacer clic en el btón aceptar para guardar los cambios
+hacer el mismo procedimiento para la siguiente máquina virtual
+
+Se las enciende una seguidas de la otra
+
+Esto sirve para cuando están en la misma máquina como las que tenemos en Ubuntu 
