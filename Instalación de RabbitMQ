@@ -1,0 +1,12 @@
+RabbitMQ esta basado en Erlang, lenguaje enfocado a programación concurrente y
+ distribuida, por lo tanto, lo primero que tenemos que hacer para poder utilizar RabbitMQ 
+en nuestro equipo es descargarnos e instalar Erlang en nuestro equipo.
+
+Una vez instalado, procederemos de igual manera con RabbitMQ. Creara su servicio 
+corriendo en el puerto 15672, mediante el cual podemos acceder al panel de 
+administración vía HTTP, después de habilitar su plugin. Para ello, accedemos mediante 
+el Command Prompt que nos suministra la distribución, básicamente es una shell con los 
+path de RabbitMQ habilitados, y tecleamos lo siguiente
+
+rabbitmq-plugins enable rabbitmq_management
+
