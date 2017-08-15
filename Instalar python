@@ -1,0 +1,11 @@
+
+Previamente a la instalación de python 
+apt-get update 
+
+Para verificar si ya tiene instalado python, esto es para Ubuntu 
+python -- version 
+
+De esta manera puede instalarse
+apt-get install python
+
+Se lo hace para que clientes y servidores entiendan python
