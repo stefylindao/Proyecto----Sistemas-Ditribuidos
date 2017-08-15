@@ -3,9 +3,10 @@ las máquinas virtuales deben estar apagadas para este procedimiento
 
 clic en la primera máquina virtual que deseamos conectar a la red y luego en configuración. 
 Haga clic en el apartado red en la ventana configuación.
-clic en la pestaña de adaptador 1.  marcar la casilla Habilitar adaptador de red
+clic en la pestaña de adaptador
+marcar la casilla Habilitar adaptador de red
 clic en el menú desplegable y seleccionar la opción Red Interna y scribir un nombre para la red interna.
-hacer clic en el btón aceptar para guardar los cambios
+hacer clic en el botón aceptar para guardar los cambios
 hacer el mismo procedimiento para la siguiente máquina virtual
 
 Se las enciende una seguidas de la otra
